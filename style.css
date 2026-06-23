@@ -47,16 +47,15 @@ body{
 }
 
 .logo img{
-    height:70px;
-    width:auto;
+    height: 60px;
+    width: auto;
+    display: block;
 }
 
-.nav-links{
-    display:flex;
-    list-style:none;
-    gap:30px;
+.logo{
+    display: flex;
+    align-items: center;
 }
-
 .nav-links a{
     color:white;
     text-decoration:none;
